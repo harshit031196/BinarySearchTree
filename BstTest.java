@@ -26,6 +26,8 @@ class BstTest {
 		bst.add(67);
 		int size=bst.getSize();
 		Assert.assertEquals(13, size);
+		boolean flag = bst.searchKey(100);
+		Assert.assertEquals(false, flag);
 	}
 
 }
